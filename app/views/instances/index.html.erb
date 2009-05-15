@@ -1,0 +1,7 @@
+<h1>Instances for <em><%= @class.rdfs::label %></em></h1>
+<ul>
+<% for instance in @instances %>
+	<% next if instance.nil? %>
+	<li><%= instance.rdfs::label %> - <%= instance.uri %></li>
+<% end %>
+</ul>

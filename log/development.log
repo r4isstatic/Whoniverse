@@ -1,0 +1,1765 @@
+/!\ FAILSAFE /!\  Fri May 15 15:34:58 +0100 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/local/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Fri May 15 15:35:45 +0100 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/local/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Fri May 15 15:37:18 +0100 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/local/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:37:36) [GET]
+
+ActionView::MissingTemplate (Missing template classes/index.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:38:45) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.rdfs) on line #3 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<li><%= c.rdfs::label %></li>
+4: <% end %>
+5: </ul>
+
+    app/views/classes/index.html.erb:3
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:39:17) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.rdfs) on line #3 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<li><%= c.rdfs::label %></li>
+4: <% end %>
+5: </ul>
+
+    app/views/classes/index.html.erb:3
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.3ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:39:20) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.rdfs) on line #3 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<li><%= c.rdfs::label %></li>
+4: <% end %>
+5: </ul>
+
+    app/views/classes/index.html.erb:3
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:39:21) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.rdfs) on line #3 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<li><%= c.rdfs::label %></li>
+4: <% end %>
+5: </ul>
+
+    app/views/classes/index.html.erb:3
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:39:22) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.rdfs) on line #3 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<li><%= c.rdfs::label %></li>
+4: <% end %>
+5: </ul>
+
+    app/views/classes/index.html.erb:3
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (115.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:39:37) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.uri) on line #3 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<li><%= c.uri %></li>
+4: <% end %>
+5: </ul>
+
+    app/views/classes/index.html.erb:3
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:39:49) [GET]
+Rendering classes/index
+Completed in 35ms (View: 4, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:41:15) [GET]
+Rendering classes/index
+Completed in 178ms (View: 90, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:43:09) [GET]
+Rendering classes/index
+Completed in 178ms (View: 148, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:43:29) [GET]
+Rendering classes/index
+Completed in 177ms (View: 148, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:44:26) [GET]
+Rendering classes/index
+Completed in 178ms (View: 149, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:44:37) [GET]
+Rendering classes/index
+Completed in 177ms (View: 147, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:51:43) [GET]
+Rendering classes/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:53:07) [GET]
+Rendering classes/index
+Completed in 234ms (View: 156, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:54:20) [GET]
+Rendering classes/index
+Completed in 197ms (View: 166, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:55:02) [GET]
+Rendering classes/index
+ERROR: compiling _run_erb_app47views47classes47index46html46erb RAISED compile error
+/Users/rissep01/whoniverse/app/views/classes/index.html.erb:4: syntax error, unexpected ';', expecting ')'
+...how_class_path(c.uri) ).to_s); @output_buffer.concat " - "; ...
+                              ^
+Function body:           def _run_erb_app47views47classes47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n"
+;  for c in @classes ; @output_buffer.concat "\n\t"
+;  next if c.nil? ; @output_buffer.concat "\n\t<li>"
+; @output_buffer.concat(( link_to(c.rdfs::label, show_class_path(c.uri) ).to_s); @output_buffer.concat " - "; @output_buffer.concat(( c.uri ).to_s); @output_buffer.concat "</li>\n"
+;  end ; @output_buffer.concat "\n</ul>\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/rissep01/whoniverse/app/views/classes/index.html.erb:10:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/rissep01/whoniverse/app/views/classes/index.html.erb:4: syntax error, unexpected ';', expecting ')'
+...how_class_path(c.uri) ).to_s); @output_buffer.concat " - "; ...
+                              ^) on line #4 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<% next if c.nil? %>
+4: 	<li><%= link_to(c.rdfs::label, show_class_path(c.uri) %> - <%= c.uri %></li>
+5: <% end %>
+6: </ul>
+
+    app/views/classes/index.html.erb:10:in `compile!'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.6ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:55:08) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (undefined method `show_class_path' for #<ActionView::Base:0x2831f38>) on line #4 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<% next if c.nil? %>
+4: 	<li><%= link_to(c.rdfs::label, show_class_path(c.uri)) %> - <%= c.uri %></li>
+5: <% end %>
+6: </ul>
+
+    app/views/classes/index.html.erb:4
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 15:55:36) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (class_url failed to generate from {:action=>"show", :controller=>"classes", :id=>"http://www.r4isstatic.com/linkeddata/ontologies/ontomedia/core/expression#Expression"}, expected: {:action=>"show", :controller=>"classes"}, diff: {:id=>"http://www.r4isstatic.com/linkeddata/ontologies/ontomedia/core/expression#Expression"}) on line #4 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<% next if c.nil? %>
+4: 	<li><%= link_to(c.rdfs::label, class_path(c.uri)) %> - <%= c.uri %></li>
+5: <% end %>
+6: </ul>
+
+    (eval):16:in `class_path'
+    app/views/classes/index.html.erb:4
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.7ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 15:56:24) [GET]
+  Parameters: {"id"=>"foo"}
+
+ActionView::MissingTemplate (Missing template classes/show.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 15:57:32) [GET]
+  Parameters: {"id"=>"foo"}
+Rendering classes/show
+Completed in 94ms (View: 9, DB: 0) | 200 OK [http://localhost/classes/foo]
+
+
+Processing ApplicationController#index (for ::1 at 2009-05-15 15:57:48) [GET]
+
+ActionController::RoutingError (No route matches "/classes/http://www.r4isstatic.com/linkeddata/ontologies/ontomedia/core/expression" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 15:58:10) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/expression:Entity]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 15:58:42) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/expression:Entity]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:00:23) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.label) on line #1 of app/views/classes/show.html.erb:
+1: <h1><%= @class.rdfs::label %></h1>
+2: 
+3: <p><%= @class.rdfs::comment %></h1>
+
+    app/views/classes/show.html.erb:1
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.2ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:00:42) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.label) on line #1 of app/views/classes/show.html.erb:
+1: <h1><%= @class.rdfs::label %></h1>
+2: 
+3: <p><%= @class.rdfs::comment %></h1>
+
+    app/views/classes/show.html.erb:1
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:00:51) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.label) on line #1 of app/views/classes/show.html.erb:
+1: <h1><%= @class.rdfs::label %></h1>
+2: 
+3: <p><%= @class.rdfs::comment %></h1>
+
+    app/views/classes/show.html.erb:1
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:01:23) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/expression:Entity]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:04:56) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/expression:Entity]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:04:57) [GET]
+  Parameters: {"id"=>"expression:Entity"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/expression:Entity]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:05:13) [GET]
+  Parameters: {"id"=>"expression:MediaTAQ"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/expression:MediaTAQ]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:27:02) [GET]
+  Parameters: {"id"=>"expression:MediaTAQ"}
+Rendering classes/show
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/classes/expression:MediaTAQ]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:27:19) [GET]
+  Parameters: {"id"=>"ome:MediaTAQ"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:MediaTAQ]
+/!\ FAILSAFE /!\  Fri May 15 16:28:27 +0100 2009
+  Status: 500 Internal Server Error
+  Illegal route: the :controller must be specified!
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/builder.rb:175:in `build'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:308:in `add_route'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:316:in `add_named_route'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:57:in `method_missing'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/option_merger.rb:20:in `__send__'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/option_merger.rb:20:in `method_missing'
+    /Users/rissep01/whoniverse/config/routes.rb:5
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/resources.rb:536:in `map_resource'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/object/misc.rb:78:in `with_options'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/resources.rb:527:in `map_resource'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/resources.rb:446:in `resources'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/resources.rb:446:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/resources.rb:446:in `resources'
+    /Users/rissep01/whoniverse/config/routes.rb:4
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:226:in `draw'
+    /Users/rissep01/whoniverse/config/routes.rb:1
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:266:in `load!'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:281:in `reload'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:59:in `reload_application'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:8:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:28:52) [GET]
+  Parameters: {"class_id"=>"ome:MediaTAQ"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#show (for ::1 at 2009-05-15 16:30:32) [GET]
+  Parameters: {"id"=>"ome:MediaTAQ"}
+
+NameError (undefined local variable or method `prote' for ClassesController:Class):
+  app/controllers/classes_controller.rb:11
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:30:40) [GET]
+  Parameters: {"id"=>"ome:MediaTAQ"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:MediaTAQ]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:30:44) [GET]
+  Parameters: {"class_id"=>"ome:MediaTAQ"}
+Rendering instances/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/classes/ome:MediaTAQ/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:31:04) [GET]
+  Parameters: {"class_id"=>"ome:MediaTAQ"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split):
+  app/controllers/application_controller.rb:14:in `load_class'
+  app/controllers/instances_controller.rb:4:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:33:21) [GET]
+  Parameters: {"class_id"=>"ome:MediaTAQ"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.split):
+  app/controllers/application_controller.rb:14:in `load_class'
+  app/controllers/instances_controller.rb:4:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:33:41) [GET]
+  Parameters: {"class_id"=>"ome:MediaTAQ"}
+Rendering instances/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:MediaTAQ/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:33:54) [GET]
+  Parameters: {"class_id"=>"owl:Class"}
+Rendering instances/index
+Completed in 86ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/owl:Class/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:34:44) [GET]
+  Parameters: {"class_id"=>"owl:Class"}
+Rendering instances/index
+Completed in 177ms (View: 148, DB: 0) | 200 OK [http://localhost/classes/owl:Class/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:35:30) [GET]
+  Parameters: {"class_id"=>"owl:Class"}
+Rendering instances/index
+Completed in 196ms (View: 168, DB: 0) | 200 OK [http://localhost/classes/owl:Class/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:35:41) [GET]
+  Parameters: {"class_id"=>"owl:Expression"}
+Rendering instances/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/instances/index.html.erb:
+1: <h1>Instances for <em><%= @class.rdfs::label %></em></h1>
+2: <ul>
+3: <% for instance in @instances %>
+4: 	<% next if instance.nil? %>
+5: 	<li><%= instance.rdfs::label %> - <%= instance.uri %></li>
+6: <% end %>
+
+    app/views/instances/index.html.erb:3
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:36:03) [GET]
+  Parameters: {"class_id"=>"owl:Expression"}
+Rendering instances/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/owl:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:36:10) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:36:58) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+
+ActionView::MissingTemplate (Missing template instances/new.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:37:08) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:37:21) [GET]
+  Parameters: {"class_id"=>"owl:Class"}
+Rendering instances/index
+Completed in 191ms (View: 163, DB: 0) | 200 OK [http://localhost/classes/owl:Class/instances/]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:39:58) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+
+ActionView::MissingTemplate (Missing template instances/new.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:40:54) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 59ms (View: 8, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 16:42:26) [GET]
+  Parameters: {"id"=>"ome:Expression"}
+Rendering classes/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:Expression]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:42:38) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:42:49) [GET]
+  Parameters: {"class_id"=>"owl:Class"}
+Rendering instances/index
+Completed in 186ms (View: 158, DB: 0) | 200 OK [http://localhost/classes/owl:Class/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:42:57) [GET]
+  Parameters: {"class_id"=>"owl:Class"}
+Rendering instances/new
+Completed in 54ms (View: 3, DB: 0) | 200 OK [http://localhost/classes/owl:Class/instances/new]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:44:40) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 52ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:47:09) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+ERROR: compiling _run_erb_app47views47instances47new46html46erb RAISED compile error
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:3: syntax error, unexpected ')'
+...:action => 'create' } do |f| ).to_s); @output_buffer.concat ...
+                              ^
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:6: syntax error, unexpected kENSURE, expecting ')'
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:8: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47instances47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New instance of <em>"; @output_buffer.concat(( @class.rdfs::label ).to_s); @output_buffer.concat "</em></h1>\n\n"
+
+; @output_buffer.concat(( form_for :instance, :url => { :action => 'create' } do |f| ).to_s); @output_buffer.concat "\n\t\n"
+
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/rissep01/whoniverse/app/views/instances/new.html.erb:8:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:3: syntax error, unexpected ')'
+...:action => 'create' } do |f| ).to_s); @output_buffer.concat ...
+                              ^
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:6: syntax error, unexpected kENSURE, expecting ')'
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:8: syntax error, unexpected kEND, expecting ')') on line #3 of app/views/instances/new.html.erb:
+1: <h1>New instance of <em><%= @class.rdfs::label %></em></h1>
+2: 
+3: <%= form_for :instance, :url => { :action => 'create' } do |f| %>
+4: 	
+5: <% end %>
+
+    app/views/instances/new.html.erb:8:in `compile!'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:47:25) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+ERROR: compiling _run_erb_app47views47instances47new46html46erb RAISED compile error
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:3: syntax error, unexpected ')'
+...action => 'create' }) do |f| ).to_s); @output_buffer.concat ...
+                              ^
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:6: syntax error, unexpected kENSURE, expecting ')'
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:8: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47instances47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New instance of <em>"; @output_buffer.concat(( @class.rdfs::label ).to_s); @output_buffer.concat "</em></h1>\n\n"
+
+; @output_buffer.concat(( form_for(:instance, :url => { :action => 'create' }) do |f| ).to_s); @output_buffer.concat "\n\t\n"
+
+;  end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/rissep01/whoniverse/app/views/instances/new.html.erb:8:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:3: syntax error, unexpected ')'
+...action => 'create' }) do |f| ).to_s); @output_buffer.concat ...
+                              ^
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:6: syntax error, unexpected kENSURE, expecting ')'
+/Users/rissep01/whoniverse/app/views/instances/new.html.erb:8: syntax error, unexpected kEND, expecting ')') on line #3 of app/views/instances/new.html.erb:
+1: <h1>New instance of <em><%= @class.rdfs::label %></em></h1>
+2: 
+3: <%= form_for(:instance, :url => { :action => 'create' }) do |f| %>
+4: 	
+5: <% end %>
+
+    app/views/instances/new.html.erb:8:in `compile!'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:48:23) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 68ms (View: 16, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:48:48) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+
+ActionView::TemplateError (undefined local variable or method `submit_button' for #<ActionView::Base:0x295d434>) on line #7 of app/views/instances/new.html.erb:
+4: 	
+5: 	
+6: 	
+7: 	<%= submit_button %>
+8: <% end %>
+
+    app/views/instances/new.html.erb:7
+    app/views/instances/new.html.erb:3
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:49:13) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 56ms (View: 4, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 16:49:53) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 56ms (View: 4, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:50:11) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index and new):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:50:30) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+
+ActionView::MissingTemplate (Missing template instances/create.erb in view path app/views):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:55:04) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+
+NoMethodError (undefined method `new' for :Resource:Symbol):
+  app/controllers/instances_controller.rb:17:in `create'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.6ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:55:11) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+
+NoMethodError (undefined method `instances_path' for #<InstancesController:0x292d8b0>):
+  app/controllers/instances_controller.rb:20:in `create'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:55:38) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+Redirected to http://localhost:3000/classes/%3Chttp:%2F%2Fwww.r4isstatic.com%2Flinkeddata%2Fontologies%2Fontomedia%2Fcore%2Fexpression%23Expression%3E/instances
+Completed in 589ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing ApplicationController#index (for ::1 at 2009-05-15 16:55:38) [GET]
+
+ActionController::RoutingError (No route matches "/classes/%3Chttp:%2F%2Fwww.r4isstatic.com%2Flinkeddata%2Fontologies%2Fontomedia%2Fcore%2Fexpression%23Expression%3E/instances" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:55:56) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 133ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:55:56) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 64ms (View: 62, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:56:22) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 65ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:56:22) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 65ms (View: 63, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 16:58:16) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 73ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 16:58:16) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 57ms (View: 55, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:00:11) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 55ms (View: 54, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:00:46) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 63ms (View: 61, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:00:47) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 57ms (View: 55, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 17:02:56) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 58ms (View: 6, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:02:58) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 212ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:02:58) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 17:05:18) [GET]
+Rendering classes/index
+
+ActionView::TemplateError (class_url failed to generate from {:action=>"show", :controller=>"classes", :id=>"http://www.r4isstatic.com/linkeddata/ontologies/ontomedia/core/expression#Expression"}, expected: {:action=>"show", :controller=>"classes"}, diff: {:id=>"http://www.r4isstatic.com/linkeddata/ontologies/ontomedia/core/expression#Expression"}) on line #4 of app/views/classes/index.html.erb:
+1: <ul>
+2: <% for c in @classes %>
+3: 	<% next if c.nil? %>
+4: 	<li><%= link_to(c.rdfs::label, class_path(c.uri)) %> - <%= c.uri %></li>
+5: <% end %>
+6: </ul>
+
+    (eval):16:in `class_path'
+    app/views/classes/index.html.erb:4
+    app/views/classes/index.html.erb:2:in `each'
+    app/views/classes/index.html.erb:2
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassesController#index (for ::1 at 2009-05-15 17:05:33) [GET]
+Rendering classes/index
+Completed in 195ms (View: 166, DB: 0) | 200 OK [http://localhost/classes/]
+
+
+Processing ClassesController#show (for ::1 at 2009-05-15 17:05:48) [GET]
+  Parameters: {"id"=>"ome:Expression"}
+Rendering classes/show
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/classes/ome:Expression]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:05:56) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 17:06:03) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 50ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:06:28) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 574ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:06:29) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 17:07:03) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 52ms (View: 1, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:07:05) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>"ddawdaw"}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 92ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:07:05) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 17:09:28) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 53ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:09:30) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>""}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 889ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:09:31) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 17:12:39) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 58ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:12:41) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>"daw"}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 1044ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:12:42) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 17:13:30) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 74ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:13:34) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>"foo"}}
+
+ActiveRdfError (could not set rdfs::label to foo: no suitable 
+			predicate found. Maybe you are missing some schema information?):
+  activerdf (1.6.11) lib/active_rdf/objectmanager/resource.rb:302:in `method_missing'
+  app/controllers/instances_controller.rb:19:in `send'
+  app/controllers/instances_controller.rb:19:in `create'
+  app/controllers/instances_controller.rb:19:in `each'
+  app/controllers/instances_controller.rb:19:in `create'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:20:42) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>"foo"}}
+
+NameError (undefined local variable or method `value' for #<InstancesController:0x29ef848>):
+  app/controllers/instances_controller.rb:22:in `create'
+  app/controllers/instances_controller.rb:19:in `each'
+  app/controllers/instances_controller.rb:19:in `create'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:20:49) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>"foo"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.add):
+  app/controllers/instances_controller.rb:22:in `create'
+  app/controllers/instances_controller.rb:19:in `each'
+  app/controllers/instances_controller.rb:19:in `create'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (117.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:20:58) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>"foo"}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 2375ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:21:00) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#new (for ::1 at 2009-05-15 17:21:33) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/new
+Completed in 61ms (View: 2, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances/new]
+
+
+Processing InstancesController#create (for ::1 at 2009-05-15 17:21:35) [POST]
+  Parameters: {"commit"=>"Save changes", "class_id"=>"ome:Expression", "authenticity_token"=>"QASlWgLDxKv8TUAHho9oR7wBk5Wz1c0yQqYBNLMy3N4=", "instance"=>{"rdfs::label"=>"ddawdwa"}}
+Redirected to http://localhost:3000/classes/ome:Expression/instances
+Completed in 998ms (DB: 0) | 302 Found [http://localhost/classes/ome:Expression/instances]
+
+
+Processing InstancesController#index (for ::1 at 2009-05-15 17:21:36) [GET]
+  Parameters: {"class_id"=>"ome:Expression"}
+Rendering instances/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/classes/ome:Expression/instances]

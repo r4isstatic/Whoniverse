@@ -1,0 +1,6 @@
+<ul>
+<% for c in @classes %>
+	<% next if c.nil? %>
+	<li><%= c.rdfs::label %> - <%= c.uri %></li>
+<% end %>
+</ul>

@@ -1,0 +1,8 @@
+<h1>New instance of <em><%= @class.rdfs::label %></em></h1>
+
+<% form_for :instance, :url => { :action => "create" } do |f| %>
+	
+	<%= f.text_field('rdfs::label') %>
+	
+	<%= submit_tag %>
+<% end %>
